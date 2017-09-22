@@ -13,6 +13,6 @@ DCGAN
 
 Some changes were made in the original code https://github.com/pytorch/examples/blob/master/dcgan/
 
-The following changes were made: generator and discriminator recieve 128x128 input image
+The following changes were made: I added additional layer to both generator and discriminator, so network input is 128x128 images
 
 I used generator with 128 filters in last convolutional layer and discriminator with 32 filters in first convolutional layer
