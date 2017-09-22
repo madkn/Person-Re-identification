@@ -12,5 +12,7 @@ Baseline: trained on 90% train, cross-entropy loss, SGD, momentum = 0.9, learnin
 DCGAN
 
 Some changes were made in the original code https://github.com/pytorch/examples/blob/master/dcgan/
-The following changes were made: generator and discriminator recieve 128x128 input image, discriminator has 32 filters
+
+The following changes were made: generator and discriminator recieve 128x128 input image
+
 I used generator with 128 filters in last convolutional layer and discriminator with 32 filters in first convolutional layer
