@@ -7,4 +7,10 @@ https://arxiv.org/pdf/1701.07717.pdf
 | ------------- | ------------- | ------------- |
 | Baseline      | 71.85         | 48.27         |
 
-Baseline: cross-entropy loss, SGD, momentum = 0.9, learning rate for convolutional layers = 0.002, learning rate for fc layer  = 0.1, 30 epochs with 0.1 learning rate decay after 20th epoch
+Baseline: trained on 90% train, cross-entropy loss, SGD, momentum = 0.9, learning rate for convolutional layers = 0.002, learning rate for fc layer  = 0.1, 30 epochs with 0.1 learning rate decay after 20th epoch
+
+DCGAN
+
+Some changes were made in the original code https://github.com/pytorch/examples/blob/master/dcgan/
+The following changes were made: generator and discriminator recieve 128x128 input image, discriminator has 32 filters
+I used generator with 128 filters in last convolutional layer and discriminator with 32 filters in first convolutional layer
