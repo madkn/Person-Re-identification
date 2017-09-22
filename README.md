@@ -7,7 +7,7 @@ https://arxiv.org/pdf/1701.07717.pdf
 | ------------- | ------------- | ------------- |
 | Baseline      | 71.85         | 48.27         |
 
-Baseline: trained on 90% train, cross-entropy loss, SGD, momentum = 0.9, learning rate for convolutional layers = 0.002, learning rate for fc layer  = 0.1, 30 epochs with 0.1 learning rate decay after 20th epoch
+Baseline: ResNet-50 trained on 90% train, cross-entropy loss, SGD, momentum = 0.9, learning rate for convolutional layers = 0.002, learning rate for fc layer  = 0.1, 30 epochs with 0.1 learning rate decay after 20th epoch
 
 DCGAN
 
