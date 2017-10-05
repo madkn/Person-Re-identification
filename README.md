@@ -13,7 +13,7 @@ Paper https://arxiv.org/pdf/1701.07717.pdf
 
 Baseline: ResNet-50, cross-entropy loss, batch size=64, SGD, momentum = 0.9, learning rate for convolutional layers = 0.002, learning rate for fc layer  = 0.1, 50 epochs with 0.1 learning rate decay after 40th epoch
 
-Histogram: ResNet-50, histogram loss, batch size=128, histograms number=150, -||-
+Histogram: ResNet-34, histogram loss, batch size=128, histograms number=150, -||-
 
 DCGAN
 
