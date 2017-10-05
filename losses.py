@@ -10,7 +10,7 @@ class LSROLoss(torch.nn.Module):
         xmax = torch.max(batch_features, 1)[0].view(-1, 1)
         return torch.mean(
             is_real.view(-1, 1) * (- torch.gather(batch_features, 1, target.view(-1, 1)) + xmax)
-            + (-1 / self.num_cl * torch.sum((1 - is_real).view(-1, 1) * (batch_features - xmax), 1))
+            + (1 / self.num_cl * torch.sum((1 - is_real).view(-1, 1) * (batch_features - xmax), 1))
             + (torch.log(torch.sum(torch.exp(batch_features - xmax), 1))).view(-1, 1)
         )
     
