@@ -1,0 +1,7 @@
+4.2. Label Smoothing Regularization for Outliers
+
+Competing methods
+
+All in one
+
+32) T. Salimans, I. Goodfellow, W. Zaremba, V. Cheung, A. Radford, and X. Chen. Improved techniques for training gans. In NIPS, 2016
